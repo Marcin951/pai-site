@@ -103,3 +103,15 @@ a {
     color: #ef7998;
     text-decoration: none;
 }
+
+#secondView {
+    height: 70%;
+    width: 100%;
+    background-color: red;
+}
+
+#footer {
+    height: 30%;
+    width: 100%;
+    background-color: gray;
+}
