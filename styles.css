@@ -62,9 +62,23 @@
     padding-right: 20px;
     background-color: rgba(0, 0, 0, 0.0);
     border-color: black;
-    border-radius: 3px;
+    border-radius: 4px;
     border-width: 2;
     font-size: 25px;
+}
+
+#exploreButton2 {
+    z-index: 2;
+    margin-top: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 14px;
+    padding-right: 14px;
+    background-color: rgba(0, 0, 0, 0.0);
+    border-color: black;
+    border-radius: 4px;
+    border-width: 1;
+    font-size: 16px;
 }
 
 #shoppingButton {
@@ -97,9 +111,138 @@ li {
     float: left;
 }
 
-a {
+#menu a {
     display: block;
     padding: 8px;
     color: #ef7998;
     text-decoration: none;
+}
+
+#secondView {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+    width: 100%;
+    background-color: white;
+    font-size: 30px;
+}
+
+#content {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#aboutUs p {
+    color: #75757d;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+#aboutUs span {
+    font-size: 55px;
+    color: #ef7998;
+}
+
+#aboutUs {
+    padding: 55px;
+    flex: 1;
+    font-size: 35px;
+}
+
+#donut {
+    flex: 1;
+    position: relative;
+}
+
+#donut img {
+    height: 375px;
+    width: 500px;
+    padding: 10px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+#donutBorder {
+    content: '';
+    position: relative;
+    width: 500px;
+    height: 375px;
+    border: 8px solid #f9e494;
+}
+
+#footer {
+    height: 30%;
+    width: 100%;
+    background-color: #eeeeee;
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#footer span {
+    font-size: 60px;
+    color: #ef7998;
+}
+
+#footer p {
+    padding-top: 25px;
+}
+
+#footer li {
+    display: inline-block;
+    font-size: 17px;
+    color: #333;
+    border: 1px solid #333;
+    border-radius: 3px;
+    padding: 8px;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#footer a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+}
+
+#searchBar {
+    margin-top: 10px;
+    width: 25%;
+    margin: 0 auto;
+    height: 35px;
+    background-color: #ef7998;
+    border-radius: 5px;
+    overflow: hidden;
+    border-width: 1px;
+    border-color: #ced4da;
+    border-style: solid;
+}
+
+#searchIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    float: left;
+    background: #ef7998;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#searchBar input {
+    float: left;
+    width: 413px;
+    height: 100%;
+    padding-left: 8px;
 }
